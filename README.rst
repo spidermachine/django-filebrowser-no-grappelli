@@ -25,7 +25,7 @@ This fork removes the dependency on Grappelli.
 Installation
 ------------
 
-    pip install -e git+git://github.com/smacker/django-filebrowser-no-grappelli.git#egg=django-filebrowser
+    pip install -e git+git://github.com/spidermachine/django-filebrowser-no-grappelli.git#egg=django-filebrowser
 
 Documentation
 -------------
