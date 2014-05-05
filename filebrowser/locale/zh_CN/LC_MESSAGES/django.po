@@ -111,7 +111,7 @@ msgstr "音频"
 #: sites.py:348 templates/filebrowser/include/breadcrumbs.html:9
 #: templates/filebrowser/include/breadcrumbs.html:11
 msgid "FileBrowser"
-msgstr "浏览图片"
+msgstr "浏览文件"
 
 #: sites.py:369
 #, python-format
@@ -333,7 +333,7 @@ msgstr "文件名"
 
 #: templates/filebrowser/include/breadcrumbs.html:6
 msgid "Home"
-msgstr "图片目录页"
+msgstr "首页"
 
 #: templates/filebrowser/include/filelisting.html:19
 #: templates/filebrowser/include/filelisting.html:45
@@ -377,7 +377,7 @@ msgstr "今年"
 
 #: templates/filebrowser/include/filter.html:21
 msgid "By Type"
-msgstr "按照图片类型"
+msgstr "按照文件类型"
 
 #: templates/filebrowser/include/filter.html:23
 msgid "All"
