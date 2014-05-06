@@ -21,7 +21,7 @@ Additional
 -----------
 
 * Show link of create folder and link of upload in the index.html
-* Add link of parent folder
+* Add link of parent folder in the index.html
 
 Installation
 ------------
