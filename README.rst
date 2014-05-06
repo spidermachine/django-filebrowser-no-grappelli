@@ -1,7 +1,7 @@
 Django FileBrowser
 ==================
 
-**Media-Management**. (based on https://github.com/sehmaschine/django-filebrowser)
+**Media-Management**. (based on https://github.com/smacker/django-filebrowser-no-grappelli)
 
 The FileBrowser is an extension to the `Django <http://www.djangoproject.com>`_ administration interface in order to:
 
@@ -17,10 +17,11 @@ FileBrowser 3.5 requires
 * Django 1.4 or 1.5 or 1.6 (http://www.djangoproject.com)
 * Pillow (https://github.com/python-imaging/Pillow)
 
-No Grappelli
+Additional
 -----------
 
-This fork removes the dependency on Grappelli.
+* Show link of create folder and link of upload in the index.html
+* Add link of parent folder
 
 Installation
 ------------
