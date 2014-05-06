@@ -300,6 +300,12 @@ class FileBrowserSite(object):
         query = request.GET.copy()
         path = u'%s' % os.path.join(self.directory, query.get('dir', ''))
 
+        #parent folder related to current dir
+
+        parent_dir = os.path.split(query.get('dir', ''))[0]
+        if not parent_dir:
+            parent_dir = ''
+
         filelisting = FileListing(
             path,
             filter_func=filter_browse,
@@ -346,6 +352,7 @@ class FileBrowserSite(object):
         return render_to_response('filebrowser/index.html', {
             'p': p,
             'page': page,
+            'parent_dir': parent_dir,
             'filelisting': filelisting,
             'query': query,
             'title': _(u'FileBrowser'),

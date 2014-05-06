@@ -396,6 +396,10 @@ msgstr "结果"
 msgid "total"
 msgstr "全部"
 
+#: templates/filebrowser/index.html:100
+msgid "Parent Folder"
+msgstr "父文件夹"
+
 #: templates/filebrowser/include/tableheader.html:12
 #: templates/filebrowser/include/tableheader.html:13
 msgid "Type"

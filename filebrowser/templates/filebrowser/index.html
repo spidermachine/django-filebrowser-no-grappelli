@@ -97,7 +97,10 @@
                 <a href="{% url 'filebrowser:fb_createdir' %}{% query_string '' 'p' %}">{% trans "New Folder" %}</a>
 
                 <a href="{% url 'filebrowser:fb_upload' %}{% query_string '' 'p' %}" >{% trans "Upload" %}</a>
-
+                {#parent dir#}
+                {% if parent_dir|length > 0 %}
+                    <a href="{% url 'filebrowser:fb_browse' %}{% query_string '' 'dir,p' %}&amp;dir={{ parent_dir }}" >{% trans "Parent Folder" %}</a>
+                {% endif %}
                 </div>
                 </form></div>
                 <script type="text/javascript">document.getElementById("searchbar").focus();</script>

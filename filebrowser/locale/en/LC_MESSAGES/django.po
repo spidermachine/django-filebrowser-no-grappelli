@@ -412,6 +412,10 @@ msgstr "Type"
 msgid "Results"
 msgstr "Results"
 
+#: templates/filebrowser/index.html:100
+msgid "Parent Folder"
+msgstr "Parent Folder"
+
 #: templates/filebrowser/include/toolbar.html:8
 #, python-format
 msgid "%(counter)s result"
